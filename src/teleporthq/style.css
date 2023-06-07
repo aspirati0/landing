@@ -1,0 +1,178 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-color-text-mid: rgba(24, 25, 29, 1);
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-color-text-label: rgba(50, 51, 53, 1);
+  --dl-color-text-plain: rgba(34, 35, 37, 1);
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-text-accent: rgba(10, 12, 21, 1);
+  --dl-size-size-xxlarge: 288px;
+  --dl-color-default-gray: rgba(245, 246, 246, 1);
+  --dl-color-default-pink: rgba(179, 86, 114, 1);
+  --dl-size-size-maxwidth: 1440px;
+  --dl-size-size-minwidth: 1200px;
+  --dl-color-default-green: rgba(58, 130, 110, 1);
+  --dl-color-default-white: rgba(255, 255, 255, 1);
+  --dl-radius-radius-round: 50%;
+  --dl-color-primary-dimmed: rgba(110, 118, 145, 1);
+  --dl-color-primary-iconbg: rgba(223, 233, 255, 1);
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-color-default-primary: rgba(51, 111, 215, 1);
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-color-default-darkgray: rgba(208, 213, 220, 1);
+  --dl-space-space-threeunits: 48px;
+  --dl-color-default-secondary: rgba(34, 35, 38, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Headline3 {
+  font-size: 46px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+}
+.Headline1 {
+  font-size: 93px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Body0 {
+  font-size: 23px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Button2 {
+  font-size: 19px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Subtitle2 {
+  font-size: 13px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Subtitle1 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Caption1 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+}
+.Headline2 {
+  font-size: 58px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Button1 {
+  font-size: 23px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Body1 {
+  font-size: 19px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Overline1 {
+  font-size: 10px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 300px;
+}
+.Headline5 {
+  font-size: 23px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Body2 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
